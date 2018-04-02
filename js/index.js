@@ -441,7 +441,7 @@ function replay(data) {
     }
     homeBtn.visible = false;
     sndBtn.visible = false;
-    replayBtn.visible = false;
+//     replayBtn.visible = false;
     var mask = new createjs.Shape();
     mask.graphics.beginFill("#EEF0DC").drawRect(0, 0, canvas.width, canvas.height);
     mask.alpha = 0.5;
